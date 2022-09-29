@@ -18,27 +18,21 @@ const rollDice = (random) => {
     switch (random) {
       case 1:
         dice.style.transform = "rotateX(0deg) rotateY(0deg)";
-        result.innerText = "1";
         break;
       case 2:
         dice.style.transform = "rotateX(-90deg) rotateY(0deg)";
-        result.innerText = "2";
         break;
       case 3:
         dice.style.transform = "rotateX(0deg) rotateY(90deg)";
-        result.innerText = "3";
         break;
       case 4:
         dice.style.transform = "rotateX(0deg) rotateY(-90deg)";
-        result.innerText = "4";
         break;
       case 5:
         dice.style.transform = "rotateX(90deg) rotateY(0deg)";
-        result.innerText = "5";
         break;
       case 6:
         dice.style.transform = "rotateX(180deg) rotateY(0deg)";
-        result.innerText = "6";
         break;
       default:
         break;
